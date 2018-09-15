@@ -1,3 +1,14 @@
-# Affichage de la temperature du processeur du Raspberry pi sur un panneau de LED
+# Raspberry temperature monitor
 
-Projet de Alex & PA
+Affichage de la temperature du processeur du Raspberry pi sur un panneau de LED
+
+## Build
+
+* Arm-linux-gcc
+
+## Run
+
+* make
+
+Thanks
+Alex & PA
