@@ -5,8 +5,8 @@
 
 uint16_t get_temperature(void)
 {
-	char temp[LENGTH_TEMP_READ];
-	uint16_t temperature;
+	char temp[LENGTH_TEMP_READ]; /*< Chaine qui récupère les 5 caractères de la lecture du fichier /sys/class/thermal/thermal_zone0/temp */
+	uint16_t temperature; /*< Entier sur 16bit qui va retourner la température du CPU sur 3 digits 423 pour 42.3 degrés celcius */
 
 	FILE * temp_file = fopen ("/sys/class/thermal/thermal_zone0/temp", "rb");
 
